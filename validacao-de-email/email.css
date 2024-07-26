@@ -1,0 +1,60 @@
+/* Estilo global para o body e html */
+html, body {
+    height: 100%; /* Define altura como 100% para ocupar toda a tela */
+    margin: 0; /* Remove margens padrão */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Define a família de fontes */
+    background-color: #8e73d3; /* Cor de fundo */
+    display: flex; /* Usa Flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+/* Estilo para o formulário */
+form {
+    background-color: rgb(255, 255, 255); /* Cor de fundo do formulário */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 300px; /* Largura do formulário */
+    text-align: center; /* Alinha o conteúdo no centro */
+}
+
+/* Estilo para o label */
+label {
+    display: block; /* Mostra o label como bloco */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+/* Estilo para o campo de entrada de email */
+input[type="text"] {
+    width: calc(100% - 20px); /* Calcula a largura para ocupar o espaço disponível */
+    padding: 8px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 14px; /* Tamanho da fonte */
+    box-sizing: border-box; /* Mantém a largura consistente com o padding e a borda */
+}
+
+/* Estilo para o botão de validação */
+input[type="submit"] {
+    background-color: #361352;  /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    border: none; /* Remove a borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Mostra o cursor de mão */
+    font-size: 14px; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Transição suave de cor de fundo */
+}
+
+/* Estilo para o botão de validação quando hover */
+input[type="submit"]:hover {
+    background-color: #641a95; /* Cor de fundo alterada no hover */
+}
+
+/* Estilo para a área de exibição do email */
+#email {
+    margin-top: 20px; /* Espaçamento superior */
+    font-size: 16px; /* Tamanho da fonte */
+    color: rgb(61, 16, 16); /* Cor do texto */
+}
