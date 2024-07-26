@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Validação de CPF</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='cpf.css'>
- 
+  <meta charset='utf-8'> <!-- Define o conjunto de caracteres UTF-8 para suportar caracteres especiais -->
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'> <!-- Define o modo de compatibilidade com o Internet Explorer -->
+  <title>Validação de CPF</title> <!-- Título da página exibido na aba do navegador -->
+  <meta name='viewport' content='width=device-width, initial-scale=1'> <!-- Configura a viewport para dispositivos móveis -->
+  <link rel='stylesheet' type='text/css' media='screen' href='cpf.css'> <!-- Importa o arquivo CSS para estilização -->
 </head>
+
 <body>
-  <form action="" id='cpfForm'></form> 
-      <label for="">CPF:</label>
-      <input type="text" id= "cpf" name="=cpf" maxlength="14">
-      <button type="submit">Validar</button>
+  <form action="" id='cpfForm'> <!-- Formulário para validação de CPF, sem ação definida (será tratado via JavaScript) -->
+    <label for="">CPF:</label> <!-- Rótulo para o campo de CPF -->
+    <input type="text" id="cpf" name="=cpf" maxlength="14"> <!-- Campo de entrada para o CPF, com limite de 14 caracteres -->
+  </br></br>
+    <button type="submit">Validar</button> <!-- Botão para submeter o formulário -->
 
   </form>
-  <p id= "message"></p>
-  <script src='cpf.js'></script>
-
+  <p id="message"></p> <!-- Parágrafo para exibir mensagens de validação -->
+  <script src='cpf.js'></script> <!-- Importa o arquivo JavaScript para validação de CPF -->
 </body>
+
 </html>
