@@ -7,11 +7,12 @@ html, body {
     display: flex; /* Usa Flexbox para centralizar */
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
+   
 }
 
 /* Estilo para o formulário */
 form {
-    background-color: rgb(255, 255, 255); /* Cor de fundo do formulário */
+    background-color: rgb(184, 156, 251); /* Cor de fundo do formulário */
     padding: 20px; /* Espaçamento interno */
     border-radius: 8px; /* Bordas arredondadas */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
@@ -40,7 +41,7 @@ input[type="submit"] {
     background-color: #361352;  /* Cor de fundo */
     color: #fff; /* Cor do texto */
     border: none; /* Remove a borda */
-    padding: 10px 20px; /* Espaçamento interno */
+    padding: 10px 70px; /* Espaçamento interno */
     border-radius: 4px; /* Bordas arredondadas */
     cursor: pointer; /* Mostra o cursor de mão */
     font-size: 14px; /* Tamanho da fonte */

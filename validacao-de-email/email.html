@@ -1,24 +1,21 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset='utf-8'> <!-- Define o conjunto de caracteres UTF-8 para suportar caracteres especiais -->
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'> <!-- Define o modo de compatibilidade com o Internet Explorer -->
-  <title>Validação de E-mail</title> <!-- Título da página exibido na aba do navegador -->
-  <meta name='viewport' content='width=device-width, initial-scale=1'> <!-- Configura a viewport para dispositivos móveis -->
-  <link rel='stylesheet' type='text/css' media='screen' href='email.css'> <!-- Importa o arquivo CSS para estilização -->
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Validação de email</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='email.css'>
+   
 </head>
-
 <body>
-  <form action=""> <!-- Formulário para validação de e-mail, sem ação definida (será tratado via JavaScript) -->
-    <label for="">E-mail:</label> <!-- Rótulo para o campo de e-mail -->
-    <input type="text" id="emailUser"> <!-- Campo de entrada para o e-mail -->
-    <br><br>
-    <input type="submit" value="validar" onclick="checarEmail()" onblur="checarEmail()"> <!-- Botão de validação de e-mail, com eventos onclick e onblur chamando a função checarEmail() -->
-
-  </form>
-  <p id="email"></p> <!-- Parágrafo para exibir o e-mail validado -->
-  <script src='email.js'></script> <!-- Importa o arquivo JavaScript para validação de e-mail -->
+    <form action="">
+        <label for="">E-mail:</label>
+        <input type="text" id="E-mailUser" name="email">
+        <input type="submit" value="validar" onclick="checarEmail()" onblur="checarEmail()">
+    </form>
+ 
+    <p id="email"></p>
+    <script src='email.js'></script>
 </body>
-
 </html>

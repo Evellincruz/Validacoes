@@ -2,16 +2,17 @@
 html, body {
     height: 100%; /* Define altura como 100% para ocupar toda a tela */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Define a família de fontes */
-    background-color: #ccbbf2; /* Cor de fundo */
+    background-color: #8e73d3; /* Cor de fundo */
     display: flex; /* Usa Flexbox para centralizar */
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
+
 }
 
 /* Estilo do formulário */
 form {
     background-color: rgb(184, 156, 251); /* Cor de fundo */
-    padding: 98px; /* Espaçamento interno */
+    padding: 20px; /* Espaçamento interno */
     border-radius: 8px; /* Bordas arredondadas */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     width: 300px; /* Largura do formulário */
@@ -21,14 +22,14 @@ form {
 /* Estilo do label */
 label {
     display: block; /* Mostra o label como bloco */
-    margin-bottom: 30px; /* Espaçamento inferior */
+    margin-bottom: 10px; /* Espaçamento inferior */
 }
 
 /* Estilo do input de CPF */
 input[type="text"] {
     width: calc(100% - 20px); /* Calcula a largura para ajustar ao formulário */
     padding: 8px; /* Espaçamento interno */
-    border: 1px solid rgb(0, 0, 0); /* Borda Preta */
+    border: 1px solid rgb(209, 209, 209); /* Borda Cinza */
     border-radius: 4px; /* Bordas arredondadas */
     font-size: 14px; /* Tamanho da fonte */
     box-sizing: border-box; /* Mantém a largura consistente com o padding e a borda */
